@@ -1,0 +1,16 @@
+{
+    "name": "calendar-reminder-app",
+    "version": "1.0.0",
+    "description": "App para marcar lembretes no Google Calendar",
+    "main": "index.js",
+    "scripts": {
+      "start": "node api/sync.js"
+    },
+    "dependencies": {
+      "axios": "^0.21.1",
+      "express": "^4.17.1",
+      "googleapis": "^39.2.0",
+      "puppeteer": "^5.5.0"
+    }
+  }
+  
